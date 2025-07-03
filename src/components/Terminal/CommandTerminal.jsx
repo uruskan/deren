@@ -194,11 +194,10 @@ Last Update: ${new Date().toLocaleString()}`,
 
   return (
     <motion.div
-      className="bg-gray-900/95 backdrop-blur-sm border border-gray-700 rounded-lg shadow-2xl flex flex-col"
-      initial={{ height: isMinimized ? 'auto' : 400 }}
-      animate={{ height: isMinimized ? 'auto' : 400 }}
+      className="bg-gray-900/95 backdrop-blur-sm border border-gray-700 rounded-lg shadow-2xl flex flex-col w-full h-full"
+      initial={{ height: isMinimized ? 'auto' : '100%' }}
+      animate={{ height: isMinimized ? 'auto' : '100%' }}
       transition={{ duration: 0.3 }}
-      style={{ minWidth: 500, maxWidth: 800 }}
     >
       {/* Terminal Header */}
       <div className="flex items-center justify-between p-3 border-b border-gray-700 bg-gray-800/50 rounded-t-lg">
@@ -239,8 +238,7 @@ Last Update: ${new Date().toLocaleString()}`,
           {/* Terminal Content */}
           <div 
             ref={terminalRef}
-            className="flex-1 p-4 overflow-y-auto space-y-2 font-mono text-sm"
-            style={{ height: 300 }}
+            className="flex-1 p-4 overflow-y-auto space-y-2 font-mono text-sm min-h-0"
           >
             <AnimatePresence>
               {history.map((entry, index) => (

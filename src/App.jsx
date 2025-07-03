@@ -270,9 +270,9 @@ function App() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 20 }}
-              className="absolute lg:relative top-0 right-0 w-full lg:w-96 h-full bg-gray-900/95 lg:bg-transparent backdrop-blur-sm border-l border-gray-700 z-20"
+              className="absolute lg:relative top-0 right-0 w-full lg:w-[400px] h-full bg-gray-900/95 lg:bg-transparent backdrop-blur-sm border-l border-gray-700 z-20 overflow-hidden"
             >
-              <div className="p-4 h-full flex flex-col">
+              <div className="p-4 h-full flex flex-col overflow-hidden">
                 <div className="flex items-center justify-between mb-4 lg:hidden">
                   <h3 className="text-lg font-semibold">Control Panel</h3>
                   <button
@@ -284,7 +284,7 @@ function App() {
                 </div>
 
                 {/* Terminal */}
-                <div className="flex-1">
+                <div className="flex-1 overflow-hidden min-h-0">
                   <CommandTerminal
                     onCommand={handleCommand}
                     isAgentActive={isAgentActive}

@@ -7,6 +7,8 @@
 
 **The Gatherer of Thought** - An AI-powered research agent with visual mind mapping capabilities.
 
+![DEREN Screenshot](./screenshot.png)
+
 ## Overview
 
 DEREN is an innovative AI research assistant that combines autonomous reasoning with interactive visual mind mapping. It's designed to help users conduct deep research, explore complex topics, and synthesize information through an intuitive visual interface.
@@ -31,7 +33,7 @@ DEREN is an innovative AI research assistant that combines autonomous reasoning 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/deren.git
+git clone https://github.com/uruskan/deren.git
 cd deren
 ```
 
