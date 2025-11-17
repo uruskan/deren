@@ -7,7 +7,7 @@
 
 **The Gatherer of Thought** - An AI-powered research agent with visual mind mapping capabilities.
 
-![DEREN Screenshot](./screenshot.png)
+![DEREN Screenshot](./Screenshot 2025-11-18 at 01.59.59.png)
 
 ## Overview
 
