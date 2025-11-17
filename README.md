@@ -1,3 +1,5 @@
+Its honestly what obsidian think it is, wish I had time to finish this shit it would make me rich.
+
 # DEREN - Dynamic Exploration & Reasoning Entity
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
